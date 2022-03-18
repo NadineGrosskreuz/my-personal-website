@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.headline {
+  background-color: coral;
+  padding: 20px;
+  color: rgb(65, 2, 65);
+  border: 20px;
+  margin: 20px;
+}
+p {
+  background-color: darkgoldenrod;
+  padding: 20px;
+  border: 20px solid brown;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
