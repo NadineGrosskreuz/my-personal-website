@@ -12,46 +12,81 @@
 </head>
 
 <body>
+
 <header>
-    <h1 class="headline">It's me, Nadine!</h1>
-       <nav>
-        <a href="#contact">Contact</a>
+    <h1 class="headline headline-first">It's me, Nadine!</h1>
+    <h2 class="headline headline-second">Welcome to my first website</h2>
+    <hr>
+       <nav class="nav">
         <a href="#biography">Biography</a>
-        <a href="#links">Links</a>
+        <a href="#mysocials">My socials</a>
+        <a href="#contact">Contact</a>
       </nav>
+      <hr>
 </header>
 
 <main>
-<img src="/images/2BewerbungsfotoNadine_2020.JPG" alt="Woman smiling">
 
-<address id="contact">
-    <h2>Contact</h2>
+<figure>
+<img src="/images/2BewerbungsfotoNadine_2020.JPG" alt="Woman smiling">
+</figure>
+
+<section class="biography" id="biography">
+    <h3 class="headline headline-third">Biography</h3>
+<p>For the past ten years I have worked as an eventmanager and now I started the web development boot camp at neue fische. I am excited to learn more about HTML, CSS and JavaScript!</p>
+</section>
+
+<section class="mysocials" id="mysocials">
+
+<h3 class="headline headline-third">My socials</h3>
+
+  <article class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/512px-LinkedIn_Logo.svg.png" alt="Blue and white LinkedIn logo">
+    <h2>LinkedIn</h2>
+    <p>Learn more about me and my professional background.</p>
+    <a href="https://github.com/NadineGrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
+        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+      </svg>
+    </a>
+  </article>
+
+  <article class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt="Black and white GitHub logo">
+    <h2>GitHub</h2>
+    <p>Follow me to learn more about my work as a web developer.</p>
+    <a href="https://github.com/NadineGrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
+        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+      </svg>
+    </a>
+
+  </article>
+
+  <article class="card">
+    <img src="https://res.cloudinary.com/css-tricks/images/w_1024,h_193,c_scale/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x-1024x193.png?_i=AA" alt="Black and white Codepen logo">
+    <h2>Codepen</h2>
+    <p>Follow me to learn more about my work as a web developer.</p>
+    <a href="https://codepen.io/nadinegrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
+        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+      </svg>
+    </a>
+  </article>
+
+  </section>
+
+<hr>
+
+<section id="contact">
+  <address>
+    <h3 class="headline headline-third">Contact</h3>
     <ul>
 <li>Phone: +49 15141845004</li>
-<li>Mail: nadine.grosskreuz@web.de</li>
-<li>Adress: Hanover</li>
+<li><a href="mailto:nadine.grosskreuz@web.de">nadine.grosskreuz@web.de</a></li>
 </ul>
+<p>Hit me up, I look forward to getting to know you!</p>
 </address>
+</section>
 
-<article id="biography">
-    <h2>Biography</h2>
-<p>For the past fifteen years I have worked as an eventmanager and now I started the web development boot camp at neue fische. I am excited to learn more about HTML, CSS and JavaScript!</p>
-</article>
-
-<article id="links">
-    <h2>Links</h2>
-<p>Find more information about me and my work on:</p>
-<ul>
-    <li><a href="https://de.linkedin.com/in/nadine-grosskreuz">LinkedIn</a></li>
-    <li><a href="https://github.com/NadineGrosskreuz">GitHub</a></li>
-    <li><a href="https://codepen.io/nadinegrosskreuz">Codepen</a></li>
-</ul>
-</article>
-
-<article>
-    <h2>Hit me up</h2>
-    <p>I am looking forward to getting to know you!</p>
-</article>
+<hr>
 
 </main>
 
@@ -61,4 +96,5 @@
 </footer>
     
 </body>
+
 </html>
