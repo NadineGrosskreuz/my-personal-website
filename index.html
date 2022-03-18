@@ -1,100 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel&family=DM+Serif+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
 
-<body>
-
-<header>
-    <h1 class="headline headline-first">It's me, Nadine!</h1>
-    <h2 class="headline headline-second">Welcome to my first website</h2>
-    <hr>
-       <nav class="nav">
-        <a href="#biography">Biography</a>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="#aboutme">About me</a>
         <a href="#mysocials">My socials</a>
         <a href="#contact">Contact</a>
       </nav>
-      <hr>
-</header>
+      <h1 class="headline headline-first">
+        It's me, Nadine!
+        <img
+          class="wavinghand"
+          src="/images/waving_hand_black_24dp.svg"
+          alt="Waving hand"
+        />
+      </h1>
+      <h2 class="headline headline-second">Welcome to my first website</h2>
+    </header>
 
-<main>
+    <main>
+      <figure>
+        <img
+          class="photo"
+          src="/images/2BewerbungsfotoNadine_2020.JPG"
+          alt="Woman smiling"
+        />
+        <figcaption>
+          <p>
+            For the past ten years I have worked as an eventmanager and now I
+            started the web development boot camp at neue fische. I am excited
+            to learn more about HTML, CSS and JavaScript!
+          </p>
+        </figcaption>
+      </figure>
 
-<figure>
-<img src="/images/2BewerbungsfotoNadine_2020.JPG" alt="Woman smiling">
-</figure>
+      <section class="aboutme" id="aboutme">
+        <h3 class="headline headline-third">About me</h3>
+        <p>
+          For the past ten years I have worked as an eventmanager and now I
+          started the web development boot camp at neue fische. I am excited to
+          learn more about HTML, CSS and JavaScript!
+        </p>
+      </section>
 
-<section class="biography" id="biography">
-    <h3 class="headline headline-third">Biography</h3>
-<p>For the past ten years I have worked as an eventmanager and now I started the web development boot camp at neue fische. I am excited to learn more about HTML, CSS and JavaScript!</p>
-</section>
+      <section class="mysocials" id="mysocials">
+        <h3 class="headline headline-third">My socials</h3>
 
-<section class="mysocials" id="mysocials">
+        <article class="card">
+          <i class="uil uil-linkedin"></i>
+          <h2>LinkedIn</h2>
+          <p>Learn more about me and my professional background.</p>
+          <a href="https://github.com/NadineGrosskreuz" target="_blank"
+            ><svg viewBox="0 0 24 24">
+              <path
+                fill="black"
+                d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z"
+              />
+            </svg>
+          </a>
+        </article>
 
-<h3 class="headline headline-third">My socials</h3>
+        <article class="card">
+          <i class="uil uil-github"></i>
+          <h2>GitHub</h2>
+          <p>Follow me to learn more about my work as a web developer.</p>
+          <a href="https://github.com/NadineGrosskreuz" target="_blank"
+            ><svg viewBox="0 0 24 24">
+              <path
+                fill="black"
+                d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z"
+              />
+            </svg>
+          </a>
+        </article>
 
-  <article class="card">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/512px-LinkedIn_Logo.svg.png" alt="Blue and white LinkedIn logo">
-    <h2>LinkedIn</h2>
-    <p>Learn more about me and my professional background.</p>
-    <a href="https://github.com/NadineGrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
-        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
-      </svg>
-    </a>
-  </article>
+        <article class="card">
+          <img
+            src="https://res.cloudinary.com/css-tricks/images/w_1024,h_193,c_scale/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x-1024x193.png?_i=AA"
+            alt="Black and white Codepen logo"
+          />
+          <h2>Codepen</h2>
+          <p>Follow me to learn more about my work as a web developer.</p>
+          <a href="https://codepen.io/nadinegrosskreuz" target="_blank"
+            ><svg viewBox="0 0 24 24">
+              <path
+                fill="black"
+                d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z"
+              />
+            </svg>
+          </a>
+        </article>
+      </section>
 
-  <article class="card">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt="Black and white GitHub logo">
-    <h2>GitHub</h2>
-    <p>Follow me to learn more about my work as a web developer.</p>
-    <a href="https://github.com/NadineGrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
-        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
-      </svg>
-    </a>
+      <section class="contact" id="contact">
+        <address>
+          <h3 class="headline headline-third">Contact</h3>
+          <ul>
+            <li>+49 15141845004</li>
+            <li>
+              <a href="mailto:nadine.grosskreuz@web.de">
+                nadine.grosskreuz@web.de</a
+              >
+            </li>
+          </ul>
+          <p class="hitup">Hit me up, I look forward to getting to know you!</p>
+        </address>
+      </section>
+    </main>
 
-  </article>
-
-  <article class="card">
-    <img src="https://res.cloudinary.com/css-tricks/images/w_1024,h_193,c_scale/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x-1024x193.png?_i=AA" alt="Black and white Codepen logo">
-    <h2>Codepen</h2>
-    <p>Follow me to learn more about my work as a web developer.</p>
-    <a href="https://codepen.io/nadinegrosskreuz" target="_blank"><svg viewBox="0 0 24 24">
-        <path fill="black" d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
-      </svg>
-    </a>
-  </article>
-
-  </section>
-
-<hr>
-
-<section id="contact">
-  <address>
-    <h3 class="headline headline-third">Contact</h3>
-    <ul>
-<li>Phone: +49 15141845004</li>
-<li><a href="mailto:nadine.grosskreuz@web.de">nadine.grosskreuz@web.de</a></li>
-</ul>
-<p>Hit me up, I look forward to getting to know you!</p>
-</address>
-</section>
-
-<hr>
-
-</main>
-
-<footer>
-<button>Impressum</button>
-<button>Datenschutz</button>
-</footer>
-    
-</body>
-
+    <footer>
+      <button>Impressum</button>
+      <button>Datenschutz</button>
+    </footer>
+  </body>
 </html>

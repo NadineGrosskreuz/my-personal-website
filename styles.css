@@ -3,17 +3,161 @@
   margin: 0;
   padding: 0;
 }
-.headline {
-  background-color: coral;
-  padding: 20px;
-  color: rgb(65, 2, 65);
-  border: 20px;
-  margin: 20px;
+
+html {
+  font-size: 62, 5%;
+  font-family: DM Serif Display, serif;
 }
+
+body {
+  background-color: white;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+}
+
+.headline-first {
+  font-size: 2.3rem;
+  background-color: #0097b2;
+}
+
+.wavinghand {
+  width: 2rem;
+  display: flex;
+  margin: 10px 0 10px 10px;
+}
+
+.headline-second {
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.nav {
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin: 10px 0 10px 0;
+  background-color: #ff7400;
+  gap: 10px;
+  padding: 0 10px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 12rem;
+  margin: 15px 0px 15px 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headline-third {
+  font-size: 1.2rem;
+  display: flex;
+  background-color: #0097b2;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  margin: 15px;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border: solid 2px black;
+  border-radius: 15px;
+}
+
+img {
+  width: 3.5rem;
+  height: auto;
+}
+
+svg {
+  width: 2rem;
+  display: flex;
+}
+
 p {
-  background-color: darkgoldenrod;
-  padding: 20px;
-  border: 20px solid brown;
-  margin: 20px;
-  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.contact {
+  font-family: DM Serif Display, serif;
+  font-size: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+address {
+  font-style: normal;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.uil {
+  font-size: 3rem;
+  color: black;
+}
+
+.mysocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hitup {
+  background-color: #ff7400;
+  font-size: 1.3rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.aboutme {
+  display: flex;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(gesamtbreite - bildbreite - abstand);
+  margin-left: abstand;
+  position: relative;
+  right: 0;
+  top: 0;
 }
