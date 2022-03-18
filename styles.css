@@ -21,6 +21,7 @@ body {
 .headline-first {
   font-size: 2.3rem;
   background-color: #0097b2;
+  padding: 10px 0 10px 0;
 }
 
 .wavinghand {
@@ -42,7 +43,6 @@ body {
   justify-content: flex-end;
   flex-direction: row;
   margin: 10px 0 10px 0;
-  background-color: #ff7400;
   gap: 10px;
   padding: 0 10px 0 0;
 }
@@ -59,7 +59,8 @@ figure {
 
 .photo {
   width: 12rem;
-  margin: 15px 0px 15px 0px;
+  height: auto;
+  margin: 15px 15px 15px 15px;
 }
 
 section {
@@ -70,10 +71,11 @@ section {
 }
 
 .headline-third {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: flex;
   background-color: #0097b2;
   width: 100%;
+  padding: 5px 0 5px 0;
 }
 
 .card {
@@ -145,19 +147,21 @@ footer {
 }
 
 .hitup {
-  background-color: #ff7400;
   font-size: 1.3rem;
   width: 100%;
   justify-content: center;
+  margin: 0 0 20px 0;
 }
 
-.aboutme {
+figcaption {
   display: flex;
-  display: inline-block;
-  vertical-align: top;
-  width: calc(gesamtbreite - bildbreite - abstand);
-  margin-left: abstand;
-  position: relative;
-  right: 0;
-  top: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headlinelinked {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  align-content: center;
 }
