@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 html {
@@ -11,6 +12,7 @@ html {
 
 body {
   background-color: #c6b8d9;
+  height: auto;
 }
 
 section {
@@ -94,19 +96,24 @@ p {
   display: flex;
 }
 
+.followme {
+  display: flex;
+  text-align: left;
+}
+
 .uil {
   font-size: 4rem;
   color: black;
 }
 
 .svgarrow {
-  transition: box-shadow 1s;
+  transition: box-shadow 0.1s;
 }
 
 .svgarrow:hover {
   cursor: pointer;
   background-color: #6814d3;
-  box-shadow: 0 0 10px 0 white, 0 0 15px 0 white;
+  box-shadow: 0 0 5px 0 black, 0 0 10px 0 white;
 }
 
 .arrow {
@@ -155,13 +162,15 @@ footer {
 button {
   font-family: DM Serif Display, serif;
   font-size: 0.9rem;
-  margin: 10px;
-  padding: 5px;
+  margin: 20px;
+  padding: 6px;
   transition: box-shadow 1s;
+  border: solid 0.5px black;
+  border-radius: 15px;
 }
 
 button:hover {
   cursor: pointer;
   background-color: #6814d3;
-  box-shadow: 0 0 10px 0 white, 0 0 15px 0 white;
+  box-shadow: 0 0 5px 0 white, 0 0 10px 0 white;
 }
