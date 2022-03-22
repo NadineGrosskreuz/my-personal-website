@@ -174,3 +174,8 @@ button:hover {
   background-color: #6814d3;
   box-shadow: 0 0 5px 0 white, 0 0 10px 0 white;
 }
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
