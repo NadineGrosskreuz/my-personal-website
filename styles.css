@@ -1,19 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-html {
-  font-size: 62, 5%;
-  font-family: DM Serif Display, serif;
-}
-
-body {
-  background-color: #c6b8d9;
-  height: auto;
-}
+@import "./Base/base.css";
+@import "./Nav/nav.css";
+@import "./Button/button.css";
 
 section {
   display: flex;
@@ -33,17 +20,6 @@ p {
   display: flex;
   justify-content: center;
   font-size: 1.1rem;
-}
-
-.nav {
-  font-size: 1.2rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  margin: 10px 0 10px 0;
-  gap: 10px;
-  padding: 0 10px 0 0;
 }
 
 .headline {
@@ -151,28 +127,6 @@ li {
   justify-content: center;
   margin: 50px 0 50px 0;
   flex-wrap: wrap;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-
-button {
-  font-family: DM Serif Display, serif;
-  font-size: 0.9rem;
-  margin: 20px;
-  padding: 6px;
-  transition: box-shadow 1s;
-  border: solid 0.5px black;
-  border-radius: 15px;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #6814d3;
-  box-shadow: 0 0 5px 0 white, 0 0 10px 0 white;
 }
 
 svg {

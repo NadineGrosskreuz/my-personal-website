@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: DM Serif Display, serif;
+}
+
+body {
+  background-color: #c6b8d9;
+  height: auto;
+}
