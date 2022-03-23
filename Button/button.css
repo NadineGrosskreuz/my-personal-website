@@ -1,0 +1,15 @@
+button {
+  font-family: DM Serif Display, serif;
+  font-size: 0.9rem;
+  margin: 20px;
+  padding: 6px;
+  transition: box-shadow 1s;
+  border: solid 0.5px black;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #6814d3;
+  box-shadow: 0 0 5px 0 white, 0 0 10px 0 white;
+}
