@@ -82,20 +82,18 @@ p {
   color: black;
 }
 
-.svgarrow {
-  transition: box-shadow 0.1s;
-}
-
-.svgarrow:hover {
+/*.arrow:hover {
   cursor: pointer;
   background-color: #6814d3;
   box-shadow: 0 0 5px 0 black, 0 0 10px 0 white;
-}
+}*/
 
 .arrow {
   display: flex;
   align-items: flex-end;
-  width: 8rem;
+  width: 10rem;
+  max-width: 100%;
+  transition: box-shadow 0.1s;
 }
 
 .contact {
